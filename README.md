@@ -1,7 +1,7 @@
 # Edge Detector
 
 ## Project Description
-[cite_start]This is an interactive, web-based application developed using Python and Streamlit for visual experimentation with classical edge detection algorithms[cite: 6]. [cite_start]The interface allows users to upload an image and dynamically adjust algorithm-specific parameters (Sobel, Laplacian, and Canny) to observe their effects in real-time[cite: 25, 30].
+This is an interactive, web-based application developed using Python and Streamlit for visual experimentation with classical edge detection algorithms. The interface allows users to upload an image and dynamically adjust algorithm-specific parameters (Sobel, Laplacian, and Canny) to observe their effects in real-time.
 
 ## Setup and Installation Instructions
 1.  **Prerequisites:** Ensure you have Python 3.12 installed.
@@ -10,7 +10,7 @@
     git clone YOUR_GITHUB_REPOSITORY_URL
     cd YOUR_REPOSITORY_NAME
     ```
-3.  **Install Dependencies:** This project requires Streamlit and OpenCV[cite: 41, 42].
+3.  **Install Dependencies:** This project requires Streamlit and OpenCV.
     ```bash
     pip install streamlit opencv-python numpy
     ```
@@ -24,9 +24,9 @@
 3.  The application will automatically open in your default web browser at `localhost:8501`.
 
 ## Features Implemented
-* [cite_start]**Image Upload:** Supports JPG, PNG, and BMP formats[cite: 10].
-* [cite_start]**Dual Display Layout:** Input (Original) and Output (Processed) views are arranged side-by-side[cite: 16].
-* [cite_start]**Algorithms:** Implemented Canny, Sobel, and Laplacian edge detection[cite: 19, 20, 21, 22].
-* [cite_start]**Dynamic Controls:** Intuitive sliders and select boxes for real-time parameter modification, including Canny thresholds, Sobel direction, and kernel sizes[cite: 25, 26, 27, 28].
+* **Image Upload:** Supports JPG, PNG, and BMP formats.
+* **Dual Display Layout:** Input (Original) and Output (Processed) views are arranged side-by-side.
+* **Algorithms:** Implemented Canny, Sobel, and Laplacian edge detection.
+* **Dynamic Controls:** Intuitive sliders and select boxes for real-time parameter modification, including Canny thresholds, Sobel direction, and kernel sizes.
 * **Parameter Reset:** A dedicated button in the sidebar resets all algorithm parameters to their initial default values.
 * **User Interface:** Clean, centered, and user-friendly design.
